@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html{
+  font-size: 62.5%;
+}
+
+
+.AApp{
+
+height: calc(100vh - 80px);
+
+position: relative;
+background:  #E3EDFE;
+display: flex;
+
+}
+.SsideBar{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.511);
+  margin-bottom: 80px;
+border-radius: 10px;
+height: calc(100vh - 80px);
+background-color: #fff;
+width: 18%
+
+
+  
+
+}
+/* CommercialCourtSidebar.css */
+.Ssavedbutton{
+  background-color: #4c60e4;
+  border: none;
+ height: 40px;
+ width: 13vw;
+ color: #E3EDFE;
+ font-weight: 500;
+ font-size: 16px;
+ border-radius: 50px;
+ position: relative;
+ left: 20px;
+margin-top: 30px;
+  
+cursor: pointer;  
+}
+
+
+.MmainBar{
+  
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.511);
+  width: 70%;
+height: calc(100vh - 80px);
+  
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 6rem 10rem;
+ margin-bottom: 10px;
+ background-color:#FFFF;
+ border-radius: 10px;
+ position: relative;
+ top: -60px;
+}
+.Cchats {
+overflow-y: auto; /* Use 'auto' instead of 'scroll' for smoother appearance */
+scroll-behavior: smooth;
+overflow-x: hidden;
+
+width: 100%;
+max-width: 70rem;
+height: calc(100vh - 20rem); /* Adjusted to fit well within the main container */
+}
+
+
+.Cchat {
+margin: 1rem;
+padding: 2rem 3rem;
+font-size: 1.2rem;
+text-align: justify;
+color: black;
+background-color: #FFDE8B;
+border-radius: 10px;
+padding-right: 10px;
+align-self: flex-start; /* Aligns the message container to the end (right side) */
+margin-left: auto; /* Pushes the container to the right */
+width: fit-content; /* Ensure the width adjusts to the content */
+max-width: 60rem; /* Prevent the chat bubble from getting too wide */
+}
+
+
+
+
+.Cchatimg{
+  object-fit: cover;
+  width: 5.5rem;
+  height: 9vh;
+  margin-right: 1.5rem;
+  filter: drop-shadow(white);
+
+}
+
+.Bbot {
+margin: 1rem;
+padding: 2rem 3rem;
+font-size: 1.2rem;
+text-align: justify; 
+color: black;
+background-color: #FFDE8B;
+border-radius: 10px;
+width: fit-content; /* Ensure the width adjusts to the content */
+max-width: 60rem; /* Prevent the chat bubble from getting too wide */
+align-self: flex-start; /* Aligns the bot message container to the start (left side) */
+}
+
+.CchatFotter {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: sticky;
+bottom: 0;
+background-color:#fff; /* Match the main background */
+padding: 10px 0; /* Add some padding for better spacing */
+}
+
+.Iinp{
+  padding: 0.5rem;
+  background-color: white ;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1000px;
+  width: 70rem;
+  outline: none;
+  box-shadow: #007bff;
+  
+}
+.Iinp>input{
+  width: calc(100%-3rem);
+  color: black;
+  padding: 1.25rem;
+  border: none;  
+  background-color: #e1e5e5;
+  width: 70rem;
+  outline: none;
+  border-radius: 1000px;
+} 
+
+.incorrect-result{
+
+font-size: 11px;
+margin: 2rem 0;
+
+}
+.Ssubmit-buttons {
+padding: 20px;
+
+background-image: url("../Bssets/sendd.png");
+background-position: center;
+background-size:cover;
+color: white;
+border: none;
+border-radius: 100px;
+cursor: pointer;
+font-size: 16px;
+transition: background-color 0.3s ease;
+}
+
+.Ssubmit-buttons:active {
+background-color: white;
+color: black;
+}
+
+
+.Llinks-list {
+  list-style: none;
+  padding: 0;
+}
+
+.Llinks-list li {
+  margin-bottom: 10px;
+}
+
+.Llinks-list a {
+  
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.Llinks-list a:hover {
+  color: #0056b3;
+}
+
+.Eerror-message {
+  color:#FFFFff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.Cchat-content {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%; /* Ensure content fits within the parent container */
+}
+
+.Ssavechat{
+background-image: url("../Bssets/Screenshot_28-8-2024_133220_www.freepik.com.jpeg");
+background-size: cover;
+border-radius: 1000px;
+border: none;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+
+}
+.Llegal{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+
+}
+.LLayP{
+  background-color: #f0f3fd;
+  border: none;
+ height: 40px;
+ width: 13vw;
+ color: #4c60e4;
+ font-weight: 500;
+ font-size: 16px;
+ border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  cursor: pointer;
+}
+.LLegalP{
+  background-color: #4c60e4;
+  border: none;
+ height: 40px;
+ width: 13vw;
+ color: #E3EDFE;
+ font-weight: 500;
+ font-size: 16px;
+ border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  cursor: pointer;
+}
+.Hhello{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+   /* padding-top: 70px; */
+  font-size: 48px;
+  color: black ;
+position: relative;
+top: 180px; 
+  font-family: "Poppins";
+  word-spacing: o.5rem;
+  gap: 1rem;
+}
+.helpspan{
+  color: #4c60e4 ;
+
+}

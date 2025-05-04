@@ -1,0 +1,23 @@
+.DivCard{
+    margin-left: 20px;
+    width: 230px;
+    max-width: 230px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    height: fit-content;
+    height: 30px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #E3EDFE;
+}
+.P2{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.Title{
+    margin:15px;
+    padding-left: 10px;
+}

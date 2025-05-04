@@ -1,0 +1,51 @@
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color:#E3EDFE;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 90px;
+    height: 40px;
+    width: 90%;
+    box-Shadow: 0px 4px 8px rgba(0, 0, 0, 0.4)
+    
+    
+  }
+  
+  .searchInput {
+    flex: 1;
+    border: none;
+    padding: 5px;
+    background-color: #E3EDFE;
+    outline: none;
+    font-family: "Poppins";
+    font-size: 18px;
+  }
+  
+  .searchButton {
+    background-image: url(../Bssets/Screenshot_28-8-2024_132448_in.pinterest.com.jpeg);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 90px;
+    font-family: "Poppins";
+    font-size: 18px;
+    
+    
+  }
+  .decisionButton {
+    background-color: #6366F1 ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 70px;
+    margin-right: 5px;
+    font-family: "Poppins";
+    font-size: 18px;
+  }
+  

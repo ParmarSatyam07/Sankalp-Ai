@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    overflow-y: hidden;
+    
+}
+.useerphoto{
+    height: 120px;
+    width: 120px;
+    border-radius: 1000px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #8bb7ff;
+    background-image: url("../Bssets/user.png");
+    background-size: cover;
+}
+.Div{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 5px;
+
+
+}
+.P4{
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* History.css */
+
+/* Existing styles */
+
+/* History.css */
+
+/* Existing styles */
+.realme-container{
+  height: calc(100vh - 80px);
+  overflow: hidden;
+}
+
+.app-container {
+display: flex;
+flex-direction: row;
+align-items:baseline;
+padding: 20px;
+position: relative;
+justify-content: center;
+background-color: #E3EDFE;
+}
+.navbarContainer{
+display: flex;
+justify-content: center;
+background-color: #E3EDFE;
+margin-bottom: -15px;
+
+
+}
+.Searchbar{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.511);
+
+display: flex;
+align-items: center;
+margin-top: 20px;
+margin-right: 20px;
+background-color: #ffff;
+
+padding: 10px;
+border-radius: 90px;
+height: 60px;
+width: 770px;
+
+}
+.Decision-button{
+ margin-left: 175px;
+padding: 15px;
+background-color: #A62419;
+color: white;
+border: none;
+border-radius: 50px;
+margin-top: 20px;
+height: 52px;
+cursor: pointer;
+
+font-size: 16px;
+}
+
+
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+max-width: 500px;
+margin-bottom: 20px;
+
+
+
+}
+
+.query-input {
+  background-color: white;
+  
+
+width: 100%;
+padding: 10px;
+
+border-radius: 70px;
+flex: 1;
+
+border: 2px solid black;
+border: 0px solid;
+font-size: 16px;
+
+}
+.summarycontainer{
+display: flex;
+align-items: center;
+color: black;
+justify-content: space-between;
+padding-right: 10px;
+padding-left: 8px;
+border-radius: 90px;
+height: 60px;
+font-size: 27px;
+font-weight: 800;
+width: 670px;
+margin-bottom: 20px;
+}
+.ChatWith{
+height: 45px;
+width: 200px;
+background-color: #6366F1 ;
+color: white;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+font-size: 16px;
+font-weight: 500;
+margin-top: 12px;
+}
+.ChatWith:hover{
+  background-color: #7320f8;
+  font-weight: 600;
+}
+
+.submit-button {
+
+
+padding: 10px 20px;
+background-color: #6366F1 ;
+color: #fff;
+border: none;
+border-radius: 70px;
+cursor: pointer;
+font-size: 16px;
+font-weight: 500;
+
+transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+background-color: blue;
+}
+
+.response-container-1 {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.511);
+
+width: 100%;
+max-width: 730px;
+background-color: #ffff;
+height: 500px;
+padding: 20px 27px;
+border-radius: 10px;
+font-size: 15px;
+overflow-x: hidden;
+overflow-y: scroll;
+margin-top: 20px;
+
+
+
+}
+.response-container-2 {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.511);
+
+width: 100%;
+margin-left: 20px;
+max-width: 300px;
+background-color:#fff;
+padding: 20px;
+border-radius: 10px;
+height: 500px;
+position: relative;
+top: -17px;
+
+overflow-y: scroll; 
+
+}
+.Sources{
+font-weight: 600;
+font-size: 20px;
+margin-bottom: 10%;
+
+}
+
+.links-list {
+list-style: none;
+padding: 0;
+}
+
+.links-list li {
+margin-bottom: 10px;
+background-color: #fff;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+min-height: 25px;
+gap: 1rem;
+overflow-x: hidden;
+flex-wrap: wrap;
+}
+
+.links-list a {
+
+color: Black;
+font-size: 15px;
+font-weight: 500;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.link-hover :hover{
+  color: #0056b3;
+  
+   background-color: #F0F3FD ;
+}
+
+.eerror-message {
+color: black;
+font-weight: bold;
+margin-top: 10px;
+}
+
+/* New styles for summary scrolling */
+
+.summary-container {
+max-height: 200px; /* Adjust the height as needed */
+overflow-y: hidden;
+overflow-y: scroll;
+
+ /* Enable vertical scrolling */
+
+padding-right: 10px; /* Add padding to account for scrollbar */
+margin-top: 10px;
+border: 1px solid #ccc; 
+border-radius: 10px; 
+background-color: #f9f9f9; 
+}
+.Response{
+  display: flex;
+  flex-direction: column;
+}
+.profilepic{
+  color: white;
+}
+.btn-save{
+  height: 40px;
+  width: 150px;
+  background-color: #6366F1 ;
+  border-radius: 50px;
+
+color: #f9f9f9;
+font-weight: 500;
+margin-top: 12px;
+cursor: pointer;
+border: none;
+}
+.btn-save:hover{
+  background-color: #7320f8;
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.btn-handle{
+  display: flex;
+  justify-content: space-between;
+}

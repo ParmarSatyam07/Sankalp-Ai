@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    background-color: #E3EDFE;
+    height: 100vh;
+    width: 100%;
+    
+  }
+.cardss{
+    display: flex;
+    flex-direction: row;
+}
+.backgroundImage{
+    background-image: url("../Bssets/Supreme-Court-of-India-1.png");
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    background-position: 0px -100px;
+    height: 320px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius:0px 1000px 1000px 0px  ;
+}
+.text{
+    height: 100px;
+
+    padding-right: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.H1{
+    font-size: 27px;
+}
+.P1{
+    font-size: 14px;
+}
+.bookmark{
+    background-color: white;
+    margin-top: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.H2{
+   margin-top: 10px;
+   font-weight: 600;
+}

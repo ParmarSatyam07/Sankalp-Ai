@@ -1,0 +1,178 @@
+.containewwr{
+     
+ height: calc(100vh - 80px);
+ 
+ position: relative;
+ background-color: #E3EDFE;
+ 
+ display: flex;
+}
+.ssidebar{
+    background-color: white;
+    height: calc(100vh - 80px);
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.LList{
+    background-color: white;
+    height: calc(100vh - 110px);
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.il{
+    justify-content: end;
+    width: 98%;
+   
+}
+
+.TitleDashboard{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.Ssidebar-button{
+    background-color:#6366F1 ;
+    height: 50px;
+    border:none;
+    color:white;
+    width: 220px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+
+.TextDashboard{
+    font-size: 17px;
+    font-weight: 600;
+}
+.Mmainbar{
+    width: 80%;
+    height: fit-content;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.barnav{
+    background-color:white;
+    width: 1200px;
+    height: 75px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ChatbotSelect{
+    height: 60px;
+    width: 190px;
+    background-color: #6366F1 ;
+    border-radius: 1000px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.maincontain{
+    width: fit-content;
+    height: fit-content;
+}
+.Recent-Chats{
+    padding: 10px;
+    margin-top: 20px;
+    width: 1200px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #FFDE8B;
+    
+    
+}
+.Chats{
+    display: flex;
+}
+.block{
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.heading{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.ccard{
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    padding-bottom: 10px;
+    margin: 10px;
+    text-align: left;
+    width: 373px;
+    height: 160px;
+    display: inline-block;
+    background-image: url("../Bssets/Screenshot_28-8-2024_133220_www.freepik.com.jpeg");
+    background-size: cover;
+    display: inline-flex;
+
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+.ccard-title{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ChatEngine{
+    font-size: 15px;
+    font-weight: 500;
+}
+.usser{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 10px;
+}
+.userphoto{
+    height: 80px;
+    width: 80px;
+    border-radius: 1000px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #8bb7ff;
+    background-image: url("../Bssets/user.png");
+    background-size: cover;
+}
+.P3{
+    font-size: 13px;
+    font-weight: 500;
+}

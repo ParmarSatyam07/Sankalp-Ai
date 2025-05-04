@@ -1,0 +1,35 @@
+.Hi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#E3EDFE
+}
+.conteainer{
+    
+    border-radius: 10px;
+    width: 98.5%;
+    height: auto;
+    background-color:white;
+    box-Shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    
+    
+}
+.savedchats{
+    display: flex;
+    flex-direction: row;
+    width: 97.5vw;
+    overflow-x: scroll;
+}
+.H11{
+    padding-right: 90.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+/* Container for the Cards component */

@@ -1,0 +1,138 @@
+.containerr{
+     
+    height: calc(100vh - 80px);
+    
+    position: relative;
+    background-color: #E3EDFE;
+    
+    display: flex;
+   }
+   .sidebar{
+       background-color: white;
+       
+       height: calc(100vh - 80px);
+       width: 18%;
+       display: flex;
+       flex-direction: column;
+       border-radius: 10px;
+       box-Shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+       justify-content: center;
+       align-items: center;
+   
+   }
+   .List{
+       background-color: white;
+       height: calc(100vh - 110px);
+       width: 90%;
+       
+       border-radius: 10px;
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       padding-top: 10px;
+       align-items: center;
+   
+   }
+   
+   .il{
+       justify-content: end;
+       
+   }
+   
+   .TitleDashboard{
+       font-weight: 600;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       
+       
+   }
+   .Ssidebar-button{
+       background-color:#6366F1 ;
+       height: 50px;
+       border:none;
+       width: 220px;
+       color: white;
+       border-radius: 10px;
+       margin-top: 5px;
+       margin-bottom: 5px;
+   }
+   .TextDashboard{
+       font-size: 17px;
+       font-weight: 600;
+   }
+.mainbar{
+    width: 80%;
+    height:calc(100vh - 110px);
+    background-color: white;
+    box-Shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.SavedChat{
+    display: flex;
+    flex-direction: row;
+    background-color: #E3EDFE;
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+
+}
+.save{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Format{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFDE8B;
+    border-radius: 10px;
+    width: 24%;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.Generate{
+    background-color: #6366F1 ;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 50px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    
+}
+.title{
+    font-weight: 500;
+    font-size: 17px;
+    width: fit-content;
+    
+    
+}
+.Popup{
+    font-size: 20px;
+    padding-top: -200px;
+
+    
+}
+.hui{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 200px;
+    margin-right: 1060px;
+    
+}
