@@ -43,6 +43,12 @@
   - Also use `local.sql` for the database
   - At last start backend server using `python app.py`
 
+![01](https://github.com/user-attachments/assets/88a5919c-bf8d-4761-a4c8-30694537c9ae)
+
+![05](https://github.com/user-attachments/assets/b1dcbd2e-7fad-44eb-9f4a-f51c6f712716)
+![04](https://github.com/user-attachments/assets/9689de87-5716-4f71-b68c-9caaa8e986d2)
+![03](https://github.com/user-attachments/assets/2a3261f2-b471-43fb-bd0d-7eeae8bb385b)
+![02](https://github.com/user-attachments/assets/eba9188a-afea-4844-9de2-d76c43fe2222)
 
 -
    
